@@ -4,7 +4,7 @@
         max-width: 100vw;
     }
 
-    .homebody {
+    .page-container {
         width: 100vw;
         padding-left: 8px !important;
     }
@@ -12,5 +12,28 @@
     .navdash {
         display: none !important;
     }
+
+    #about-container {
+        flex-direction: column !important;
+        justify-content: left !important;
+        padding: 0 !important;
+        min-height: 100vh;
+    }
+
+    .about-title {
+        font-size: 32px !important;
+        transform: rotate(0deg) !important;
+    }
+
+    .about-text {
+        font-size: 16px !important;
+        padding: 0 !important;
+    }
+
+    #about {
+        min-height: auto !important;
+        min-width: 90vw !important;
+    }
+
 
 }

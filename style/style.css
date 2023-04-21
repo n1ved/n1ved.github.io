@@ -14,13 +14,23 @@ body {
     font-family: 'JetBrains Mono';
     margin: 0px;
     /* max-width: 100%; */
-    overflow: hidden;
+    overflow-x: hidden;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
-.homebody {
+.maincontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    align-items: center;
+    min-width: 100vw;
+    max-width: 100vw;
+}
+
+.page-container {
     padding-left: 32px;
     width: 50vw;
     max-width: 50vw;
@@ -61,6 +71,8 @@ body {
     flex-direction: column;
     align-content: right;
     justify-content: space-between;
+    position: fixed;
+    right: 0;
 }
 
 .navlinks {
@@ -77,8 +89,8 @@ body {
     text-decoration: none;
 }
 
-.selected {
-    color: #000 !important;
+.navlink:scope {
+    color: var(--primary);
 }
 
 .navlinks:hover>.navlink {
@@ -86,4 +98,27 @@ body {
     font-size: 64px;
     animation-name: navbaractive;
     animation-duration: 250ms;
+}
+
+.about-title {
+    display: inline;
+    flex-direction: column;
+    font-size: 64px;
+    transform: rotate(270deg);
+    padding: 0;
+}
+
+
+.about-text {
+    font-size: 32px;
+    padding: 0;
+}
+
+#about {
+    padding: 0px !important;
+}
+
+#about-container {
+    justify-content: center !important;
+    padding: 0 !important;
 }
