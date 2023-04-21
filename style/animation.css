@@ -1,0 +1,31 @@
+@keyframes navbar {
+    from {
+        font-size: 20px;
+    }
+
+    to {
+        font-size: 24px;
+    }
+}
+
+@keyframes bodyhover {
+    from {
+        padding: 10px;
+    }
+
+    to {
+        padding: 30px;
+    }
+}
+
+@keyframes navbaractive {
+    from {
+        font-size: 50px;
+        color: #0000003a;
+    }
+
+    to {
+        color: var(--primary);
+        font-size: 64px;
+    }
+}

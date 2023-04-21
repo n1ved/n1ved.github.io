@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=JetBrains+Mono');
+@import url('animation.css');
+@import url('responsive.css');
+
+:root {
+    --primary: #1e1e1e;
+    --secondary: #fff;
+    --on-primary: #1e1e1e;
+    --alternate: #1b729f;
+    --alternate-dark: #1a323e;
+}
+
+body {
+    font-family: 'JetBrains Mono';
+    margin: 0px;
+    /* max-width: 100%; */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.homebody {
+    padding-left: 32px;
+    width: 50vw;
+    max-width: 50vw;
+    min-height: 100vh;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hs,
+.hm,
+.s {
+    width: 50vw;
+    align-self: center;
+    justify-self: left;
+}
+
+.hs {
+    font-size: 96px;
+    /*5*/
+}
+
+.hm {
+    font-size: 128px;
+    /*6.67*/
+    font-weight: bold;
+}
+
+.s {
+    font-size: 24px;
+    /*1.4*/
+}
+
+.navdash {
+    display: flex;
+    flex-direction: column;
+    align-content: right;
+    justify-content: space-between;
+}
+
+.navlinks {
+    display: block;
+    align-self: self-end;
+    font-size: 50px;
+    padding-right: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.navlinks a {
+    color: #0000003a;
+    text-decoration: none;
+}
+
+.selected {
+    color: #000 !important;
+}
+
+.navlinks:hover>.navlink {
+    color: var(--primary);
+    font-size: 64px;
+    animation-name: navbaractive;
+    animation-duration: 250ms;
+}
