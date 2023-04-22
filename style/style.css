@@ -128,6 +128,5 @@ body {
 }
 
 #about-container {
-    justify-content: left !important;
     padding: 0 !important;
 }
