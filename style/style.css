@@ -138,10 +138,85 @@ body {
     padding: 0;
 }
 
-#about {
+#about,
+#works {
     padding: 0px !important;
 }
 
-#about-container {
+#about-container,
+#work-container {
     padding: 0 !important;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    align-items: left;
+    align-content: left;
+
+}
+
+.projectcard {
+    max-width: 300px;
+    word-wrap: break-word;
+    align-self: center;
+    justify-self: left;
+    border-radius: 50px;
+    background-color: #ffffff;
+    padding: 20px;
+    padding-bottom: 25px;
+    box-shadow: 0px 0px 1px 0.5px #1e1e1e00;
+    margin: 20px;
+}
+
+.projectcard:hover {
+    animation-name: rise;
+    animation-duration: 2s;
+    box-shadow: 1px 1px 1000px 0.5px #1e1e1e98;
+}
+
+
+.card-title,
+.description,
+.status,
+.tech,
+.link,
+.projectcard i {
+
+    background-color: #ffffff;
+    padding-left: 10px;
+    padding-bottom: 2px;
+}
+
+.pimage {
+    min-width: 300px;
+    min-height: 150px;
+    background-position: center;
+    background-size: cover;
+}
+
+.card-title {
+    font-size: 32px;
+    padding: 10px;
+}
+
+
+
+.status,
+.tech {
+    font-size: 16px;
+}
+
+.projectcard a {
+    color: #1e1e1e;
+    font-size: 20px;
+}
+
+#img-one {
+    background-image: url('/assets/todo.png');
+}
+
+#img-two {
+    background-image: url('/assets/skyze.png');
 }
