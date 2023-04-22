@@ -11,7 +11,7 @@
 
 <body>
     <script src="scripts/script.js"></script>
-    <div class="maincontainer">
+    <div class="maincontainer" id="home-main">
         <div class="page-container" id="home">
             <div class="hs">Hi</div>
             <div class="hs">I'm</div>
@@ -20,10 +20,16 @@
         </div>
 
         <div class="navdash">
-            <div class="navlinks"><a href="#" class="navlink" style="color:#1e1e1e">Home</a></div>
-            <div class="navlinks"><a href="#about" class="navlink">About</a></div>
-            <div class="navlinks"><a href="#" class="navlink">Works</a></div>
-            <div class="navlinks"><a href="#" class="navlink">Contact</a></div>
+            <div class="navlinks" onclick="navbarselected('home-link')">
+                <a href="#home" class="navlink" id="home-link">Home</a>
+            </div>
+            <div class="navlinks" onclick="navbarselected('about-link')"><a href="#about" class="navlink"
+                    id="about-link">About</a>
+            </div>
+            <div class="navlinks" onclick="navbarselected('works-link')"><a href="#works" class="navlink"
+                    id="works-link">Works</a></div>
+            <div class="navlinks" onclick="navbarselected('contact-link')"><a href="#contact" class="navlink"
+                    id="contact-link">Contact</a></div>
         </div>
     </div>
     <a name="about"></a>

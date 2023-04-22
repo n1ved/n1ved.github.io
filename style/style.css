@@ -66,9 +66,16 @@ body {
 
 .hm {
     font-size: 128px;
-    /*6.67*/
-    font-weight: bold;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradients 5s ease infinite;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
+
+
 
 .s {
     font-size: 24px;
@@ -82,6 +89,7 @@ body {
     justify-content: space-between;
     position: fixed;
     right: 0;
+
 }
 
 .navlinks {
@@ -93,17 +101,14 @@ body {
     padding-bottom: 32px;
 }
 
-.navlinks a {
+.navlink {
     color: #0000003a;
     text-decoration: none;
 }
 
-.navlink:scope {
-    color: var(--primary);
-}
 
 .navlinks:hover>.navlink {
-    color: var(--primary);
+    color: var(--primary) !important;
     font-size: 64px;
     animation-name: navbaractive;
     animation-duration: 250ms;
@@ -115,11 +120,21 @@ body {
     font-size: 64px;
     transform: rotate(270deg);
     padding: 0;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradients 5s ease infinite;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#home-link {
+    color: #1e1e1e;
 }
 
 
 .about-text {
-    font-size: 32px;
+    font-size: 28px;
     padding: 0;
 }
 
