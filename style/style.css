@@ -148,6 +148,10 @@ body {
     padding: 0 !important;
 }
 
+#works-container {
+    justify-content: left;
+}
+
 .card-container {
     display: flex;
     flex-direction: row;
@@ -158,7 +162,8 @@ body {
 }
 
 .projectcard {
-    max-width: 300px;
+    width: 300px;
+    height: 400px;
     word-wrap: break-word;
     align-self: center;
     justify-self: left;
@@ -166,14 +171,14 @@ body {
     background-color: #ffffff;
     padding: 20px;
     padding-bottom: 25px;
-    box-shadow: 0px 0px 1px 0.5px #1e1e1e00;
     margin: 20px;
+    border: solid 4px #1e1e1e00;
 }
 
 .projectcard:hover {
     animation-name: rise;
-    animation-duration: 2s;
-    box-shadow: 1px 1px 1000px 0.5px #1e1e1e98;
+    animation-duration: 1s;
+    border: solid 4px #1e1e1e;
 }
 
 
@@ -213,10 +218,19 @@ body {
     font-size: 20px;
 }
 
+
+#works-title {
+    margin-right: 4vw;
+}
+
 #img-one {
-    background-image: url('/assets/todo.png');
+    background-image: url('../assets/todo.png');
 }
 
 #img-two {
-    background-image: url('/assets/skyze.png');
+    background-image: url('../assets/skyze.png');
+}
+
+#img-three {
+    background-image: url('../assets/ncrypter.png');
 }
