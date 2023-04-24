@@ -30,7 +30,7 @@ body {
 .maincontainer {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: left;
     margin: 0;
     align-items: center;
     min-width: 100vw;
@@ -50,22 +50,32 @@ body {
     flex-direction: column;
 }
 
+/* #home-main {
+    justify-content: space-around;
+} */
+
 .hs,
 .hm,
 .s {
     width: 50vw;
     align-self: center;
-    justify-self: left;
+    justify-self: center;
     color: var(--primary);
 }
 
+.hs,
+.s {
+    padding-left: 15vw;
+}
+
 .hs {
-    font-size: 96px;
+    font-size: 60px;
     /*5*/
 }
 
 .hm {
-    font-size: 128px;
+    padding-left: 12.5vw;
+    font-size: 320px;
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
     animation: gradients 5s ease infinite;
@@ -148,10 +158,6 @@ body {
     padding: 0 !important;
 }
 
-#works-container {
-    justify-content: left;
-}
-
 .card-container {
     display: flex;
     flex-direction: row;
@@ -218,6 +224,30 @@ body {
     font-size: 20px;
 }
 
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: left;
+}
+
+.contact-link {
+    align-self: flex-start;
+    justify-self: left;
+    text-decoration: none;
+    color: var(--primary);
+    font-size: 36px;
+    padding: 15px 5px 0;
+    margin: 0;
+}
+
+
+
+.contact-link:hover {
+    animation-name: contacts;
+    animation-duration: 200ms;
+    font-size: 42px;
+}
 
 #works-title {
     margin-right: 4vw;

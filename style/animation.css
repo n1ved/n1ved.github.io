@@ -53,3 +53,23 @@
         border: solid 4px #1e1e1e;
     }
 }
+
+@keyframes contacts {
+    from {
+        font-size: 36px;
+    }
+
+    to {
+        font-size: 42px;
+    }
+}
+
+@keyframes contact-ico-anim {
+    from {
+        font-size: 0;
+    }
+
+    to {
+        font-size: 42px;
+    }
+}

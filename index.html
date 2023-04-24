@@ -12,10 +12,10 @@
 
 <body>
     <script src="scripts/script.js"></script>
-    <div class="maincontainer" id="home-main">
+    <div class="maincontainer" id="home-main" onmouseenter="navbarselected('home-link')">
         <div class="page-container" id="home">
-            <div class="hs">Hi</div>
-            <div class="hs">I'm</div>
+            <div class="hs">Hi I'm</div>
+            <!-- <div class="hs">I'm</div> -->
             <div class="hm" id="hero">Nived</div>
             <div class="s">student . Programmer . Tech Enthusiast</div>
         </div>
@@ -34,7 +34,7 @@
         </div>
     </div>
     <a name="about"></a>
-    <div class="maincontainer" id="about-container" style="justify-content: left !important;">
+    <div class="maincontainer" id="about-container" onmouseenter="navbarselected('about-link')">
         <div class="about-title">
             About Me
         </div>
@@ -62,7 +62,7 @@
         </div>
     </div>
     <a name="works"></a>
-    <div class="maincontainer" id="works-container">
+    <div class="maincontainer" id="works-container" onmouseenter="navbarselected('works-link')">
         <div class="about-title" id="works-title">
             Projects
         </div>
@@ -126,28 +126,20 @@
             </div>
         </div>
     </div>
+    <a name="contacts"></a>
+    <div class="maincontainer" id="contact-containers" onmouseenter="navbarselected('contact-link')">
+        <div class="about-title">
+            Contact Me
+        </div>
+        <div class="page-container" id="contact">
+            <a href="mailto:nivedrsalini@gmail.com" class="contact-link" class="mail">Email</a>
+            <a href="https://github.com/n1ved" class="contact-link" class="gh">Github</a>
+            <a href="https://linkedin.com/in/n1ved" class="contact-link" class="in">LinkedIn</a>
+            <a href="https://twitter.com/_n1ved" class="contact-link" class="tw">Twitter</a>
+            <a href="https://instagram.com/__n1ved" class="contact-link" class="ig">Instagram</a>
+        </div>
+    </div>
 
 </body>
 
 </html>
-
-<!-- <div class="projectcard" id="card-one">
-                   
-    <div class="projectcard" id="card-two">
-    <div class="pimage" id="img-two"></div>
-    <div class="card-title" id="title-one">
-        Skyze
-    </div>
-    <div class="description">
-        A beautiful openweathermap client made on flutter
-    </div>
-    <div class="status" style="color: rgb(255, 123, 34);">
-        Status : Ongoing
-    </div>
-    <div class="tech" style="color:#00bdab;">
-        Language : Dart
-    </div>
-    <a href="http://github.com/n1ved/skyze">
-        <i class="fa-brands fa-github"></i>
-    </a>
-</div> -->
