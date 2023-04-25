@@ -39,7 +39,6 @@ body {
 }
 
 .page-container {
-    padding-left: 32px;
     width: 50vw;
     max-width: 50vw;
     min-height: 100vh;
@@ -69,13 +68,13 @@ body {
 }
 
 .hs {
-    font-size: 60px;
+    font-size: 3.125vw;
     /*5*/
 }
 
 .hm {
     padding-left: 12.5vw;
-    font-size: 320px;
+    font-size: 16.66vw;
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
     animation: gradients 5s ease infinite;
@@ -88,8 +87,7 @@ body {
 
 
 .s {
-    font-size: 24px;
-    /*1.4*/
+    font-size: 1.4vw;
 }
 
 .navdash {
@@ -105,10 +103,8 @@ body {
 .navlinks {
     display: block;
     align-self: self-end;
-    font-size: 50px;
-    padding-right: 32px;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    font-size: 2.60vw;
+    padding: 1.66vw 1.66vw 1.66vw 0;
 }
 
 .navlink {
@@ -119,7 +115,7 @@ body {
 
 .navlinks:hover>.navlink {
     color: var(--primary) !important;
-    font-size: 64px;
+    font-size: 3.33vw;
     animation-name: navbaractive;
     animation-duration: 250ms;
 }
@@ -127,7 +123,7 @@ body {
 .about-title {
     display: inline;
     flex-direction: column;
-    font-size: 64px;
+    font-size: 3.33vw;
     transform: rotate(270deg);
     padding: 0;
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
@@ -144,7 +140,7 @@ body {
 
 
 .about-text {
-    font-size: 28px;
+    font-size: 1.45vw;
     padding: 0;
 }
 
@@ -168,16 +164,16 @@ body {
 }
 
 .projectcard {
-    width: 300px;
-    height: 400px;
+    width: 15.625vw;
+    height: 37vh;
     word-wrap: break-word;
     align-self: center;
     justify-self: left;
     border-radius: 50px;
     background-color: #ffffff;
-    padding: 20px;
-    padding-bottom: 25px;
-    margin: 20px;
+    padding: 1.85vh 1.04vw;
+    padding-bottom: 2.31vw;
+    margin: 1.85vh 1.04vw;
     border: solid 4px #1e1e1e00;
 }
 
@@ -196,32 +192,32 @@ body {
 .projectcard i {
 
     background-color: #ffffff;
-    padding-left: 10px;
-    padding-bottom: 2px;
+    padding-left: 0.52vw;
+    padding-bottom: 0.185vh;
 }
 
 .pimage {
-    min-width: 300px;
-    min-height: 150px;
+    min-width: 15.625vw;
+    min-height: 13.88vh;
     background-position: center;
     background-size: cover;
 }
 
 .card-title {
-    font-size: 32px;
-    padding: 10px;
+    font-size: 1.66vw;
+    padding: 0.925vh 0.52vw;
 }
 
 
 
 .status,
 .tech {
-    font-size: 16px;
+    font-size: 0.833vw;
 }
 
 .projectcard a {
     color: #1e1e1e;
-    font-size: 20px;
+    font-size: 1.4vw;
 }
 
 #contact {
@@ -236,8 +232,8 @@ body {
     justify-self: left;
     text-decoration: none;
     color: var(--primary);
-    font-size: 36px;
-    padding: 15px 5px 0;
+    font-size: 1.875vw;
+    padding: 1.388vh 0.26vw 0;
     margin: 0;
 }
 
@@ -246,7 +242,7 @@ body {
 .contact-link:hover {
     animation-name: contacts;
     animation-duration: 200ms;
-    font-size: 42px;
+    font-size: 2.19vw;
 }
 
 #works-title {

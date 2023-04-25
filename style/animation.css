@@ -1,32 +1,32 @@
 @keyframes navbar {
     from {
-        font-size: 20px;
+        font-size: 1.04vw;
     }
 
     to {
-        font-size: 24px;
+        font-size: 1.25vw;
     }
 }
 
 @keyframes bodyhover {
     from {
-        padding: 10px;
+        padding: 0.52vw;
     }
 
     to {
-        padding: 30px;
+        padding: 1.56vw;
     }
 }
 
 @keyframes navbaractive {
     from {
-        font-size: 50px;
+        font-size: 2.60vw;
         color: #0000003a;
     }
 
     to {
         color: var(--primary);
-        font-size: 64px;
+        font-size: 3.33vw;
     }
 }
 
@@ -56,11 +56,11 @@
 
 @keyframes contacts {
     from {
-        font-size: 36px;
+        font-size: 1.875vw;
     }
 
     to {
-        font-size: 42px;
+        font-size: 2.19vw;
     }
 }
 
@@ -70,6 +70,6 @@
     }
 
     to {
-        font-size: 42px;
+        font-size: 2.19vw;
     }
 }
