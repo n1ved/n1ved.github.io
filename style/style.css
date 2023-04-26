@@ -275,6 +275,7 @@ body {
     }
 
     .navbar-container {
+        background-color: var(--secondary);
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -285,18 +286,25 @@ body {
         bottom: 0;
         height: 7vh;
         color: var(--secondary);
+    }
 
+    .navbar-links {
+        color: #1e1e1e;
+        padding: 10px;
     }
 
     .maincontainer {
         flex-direction: column;
         justify-content: center;
+        min-height: 100vh;
+        max-height: 100vh;
     }
 
 
     .page-container {
         justify-content: center;
         min-width: 100vw;
+        max-height: 100vh;
     }
 
     .hs {
@@ -328,5 +336,42 @@ body {
 
     .navdash {
         display: none;
+    }
+
+    #about,
+    #works {
+        flex-direction: column;
+        min-height: 70vh;
+        max-height: 80vh;
+        padding: 0;
+    }
+
+    .about-title {
+        transform: none;
+        padding: 0;
+        font-size: 42px;
+
+    }
+
+    .about-text {
+        font-size: 15px;
+        margin: 0 20px;
+    }
+
+    .card-container {
+        flex-direction: column;
+        max-height: 80vh;
+    }
+
+    .pimage {
+        transform: rotate(270deg);
+        height: ;
+    }
+
+    .projectcard {
+        display: flex;
+        flex-direction: row;
+        height: 25vh;
+        width: 75vw;
     }
 }
