@@ -284,10 +284,6 @@ section {
 }
 
 @media only screen and (max-width: 768px) {
-    /* body {
-        overflow: hidden;
-
-    } */
 
     .navbar-container {
         background-color: var(--secondary);
@@ -371,7 +367,7 @@ section {
     }
 
     .about-text {
-        font-size: 15px;
+        font-size: 16px;
         margin: 0 25px;
     }
 
