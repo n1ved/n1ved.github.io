@@ -1,0 +1,22 @@
+.navbar {
+    min-height: 5vh;
+    max-height: 5vh;
+    min-width: 100%;  
+    overflow: hidden;
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    align-items: center ;
+  }
+  .navlinks{
+    min-width: 100%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content:flex-end;
+    align-content: center;
+  }
+  .navlink{
+    padding: 0 1vw;
+  }
+  

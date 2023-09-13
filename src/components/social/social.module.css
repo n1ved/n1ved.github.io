@@ -1,0 +1,13 @@
+.social{
+    box-sizing: border-box;
+    padding-right: 1vw;
+    display: flex;
+    width: 3vw;
+    flex-direction: column;
+    justify-content: flex-end;
+    max-height: 90vh;
+}
+
+.link{
+    margin: 1vh 0;
+}

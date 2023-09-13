@@ -1,0 +1,31 @@
+.hero{
+    box-sizing: border-box;
+    padding-left: 5vw;
+    min-height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+}
+
+.salutation{
+    font-size: 7rem;
+    font-weight: 700;
+    color: #ECEFF4;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: #ECEFF4 1px;
+}
+
+.name{
+    font-size: 15rem;
+    font-weight: 700;
+    color: #ECEFF4;
+}
+
+.description{
+    font-size: 5rem;
+    font-weight: 400;
+    color: #ECEFF4;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: #ECEFF4 1px;
+}
