@@ -19,4 +19,23 @@
   .navlink{
     padding: 0 1vw;
   }
+
+  @media  screen and (max-width: 1000px) {
+    .navbar{
+      min-height: 10vh;
+      max-height: 10vh;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+    .navlinks{
+      min-width: 100%;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+    .navlink{
+      padding: 1vh 0;
+    }
+  }
   

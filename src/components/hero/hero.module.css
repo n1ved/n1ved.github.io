@@ -29,3 +29,21 @@
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: #ECEFF4 1px;
 }
+
+@media screen and (max-width: 1000px){
+    .hero{
+        min-height: 80vh;
+        padding-left: 0;
+        padding-top: 5vh;
+        align-items: center;
+    }
+    .salutation{
+        font-size: 3rem;
+    }
+    .name{
+        font-size: 7rem;
+    }
+    .description{
+        font-size: 2rem;
+    }
+}

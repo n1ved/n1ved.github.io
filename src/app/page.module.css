@@ -17,3 +17,11 @@
   max-height: 95vh;
   overflow: hidden;
 }
+
+@media screen and (max-width: 1000px){
+  .bodyContainer{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
