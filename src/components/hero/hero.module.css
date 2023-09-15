@@ -13,7 +13,7 @@
     font-weight: 700;
     color: #ECEFF4;
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: #ECEFF4 1px;
+    -webkit-text-stroke: 1px #ECEFF4;
 }
 
 .name{
@@ -27,7 +27,7 @@
     font-weight: 400;
     color: #ECEFF4;
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: #ECEFF4 1px;
+    -webkit-text-stroke: 1px #ECEFF4;
 }
 
 @media screen and (max-width: 1000px){

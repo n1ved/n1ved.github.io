@@ -1,0 +1,24 @@
+.main{
+    background-color: #2E3440;
+    margin: 1vh 1vw;
+}
+
+
+
+.title{
+    font-size:5rem;
+    padding-bottom: 2vh;
+}
+
+.bodyContainer{
+    width: 100%;
+    display: grid;
+    column-gap: 1vw;
+    row-gap: 1vh;
+    grid-template-columns: repeat(auto-fit, minmax(1vw, 1fr));
+}
+
+.projectCard:first-child{
+    grid-column: 1/ span 5;
+}
+
