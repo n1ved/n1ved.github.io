@@ -14,6 +14,23 @@ export default function Projects() {
                 description="Skyze is beautiful weather app made on flutter with openweathermap API"
                 technologies="Flutter, Dart, REST API"
                 links="github.com"
+                colors="#19B9FB,cyan,grey"
+            />
+            <ProjectCard
+                className={styles.projectCard}
+                title="FAdj"
+                description="Simple front-end for ryzenAdj made with Flutter"
+                technologies="Flutter, Dart, Shell"
+                links="github.com"
+                colors="#19B9FB,cyan,grey"
+            />
+            <ProjectCard
+                className={styles.projectCard}
+                title="nCrypter"
+                description="A Simple text cyphering tool written in C++"
+                technologies="C++"
+                links="github.com"
+                colors="pink"
             />
         </div>
 
