@@ -3,17 +3,16 @@ import styles from './page.module.css'
 import ProjectCard from "@/components/project_card/project_card";
 export default function Projects() {
     return <main className={styles.main}>
-        <h1 className={styles.title}>
-            Projects
-        </h1>
+        <Navbar/>
         <div className={styles.bodyContainer}>
             <ProjectCard
                 className={styles.projectCard}
-                image="https://repository-images.githubusercontent.com/625124989/92144e56-997b-4406-ad8a-d21c0e97f3cb"
                 title="Skyze"
-                description="Skyze is beautiful weather app made on flutter with openweathermap API"
+                description="Skyze is a weather app made on flutter with openweathermap API"
                 technologies="Flutter, Dart, REST API"
-                links="github.com"
+                github = "https://github.com/n1ved/skyze"
+                live = ""
+                download = "https://github.com/n1ved/skyze/releases/latest"
                 colors="#19B9FB,cyan,grey"
             />
             <ProjectCard
@@ -21,7 +20,7 @@ export default function Projects() {
                 title="FAdj"
                 description="Simple front-end for ryzenAdj made with Flutter"
                 technologies="Flutter, Dart, Shell"
-                links="github.com"
+                github = ""
                 colors="#19B9FB,cyan,grey"
             />
             <ProjectCard
@@ -32,6 +31,7 @@ export default function Projects() {
                 links="github.com"
                 colors="pink"
             />
+
         </div>
 
     </main>;
