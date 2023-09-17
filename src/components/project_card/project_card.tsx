@@ -18,8 +18,8 @@ export default function ProjectCard(props:any) {
             </span>
             <div className={styles.links}>
                 <a href={props.github} target={'__blank'} className={styles.link}><FontAwesomeIcon icon={faGithub} className={styles.icon} /></a>
-                <a href={props.live} target={'__blank'} className={styles.link}><FontAwesomeIcon icon={faGlobe} className={styles.icon}/></a>
-                <a href={props.download} target={'__blank'} className={styles.link}><FontAwesomeIcon icon={faDownload} className={styles.icon}/></a>
+                {props.haveLive ? <a href={props.live} target={'__blank'} className={styles.link}><FontAwesomeIcon icon={faGlobe} className={styles.icon}/></a> : " " }
+                {props.haveDownload ? <a href={props.download} target={'__blank'} className={styles.link}><FontAwesomeIcon icon={faDownload} className={styles.icon}/></a> : " " }
             </div>
         </div>
     </div>
