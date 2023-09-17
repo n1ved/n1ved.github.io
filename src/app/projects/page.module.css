@@ -15,5 +15,12 @@
     grid-gap: 10px;
 }
 
+@media screen and (max-width: 1000px){
+    .bodyContainer{
+        grid-template-columns: max-content;
+        place-items: center;
+    }
+}
+
 
 

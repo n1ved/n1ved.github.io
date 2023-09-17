@@ -24,6 +24,7 @@
 
 .tech{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
 }
 .technologies{
@@ -49,4 +50,20 @@
 .icon{
     width: 2rem;
     margin-right: 1rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .card{
+        width: 95vw;
+        max-width: 95vw;
+    }
+
+    .textContainer{
+        margin: 2vh 2vw;
+        white-space: normal;
+    }
+
+    .technologies{
+        margin-bottom: 1rem;
+    }
 }
