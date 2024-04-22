@@ -1,0 +1,17 @@
+.about-text{
+    color: var(--primary);
+    text-align: justify;
+    font-family: "Space Mono";
+    font-size: 20px;
+    font-weight: 400;
+    align-self: center;
+    width: 60%;
+    line-height: 50px;
+    box-sizing: border-box;
+    padding-bottom: 8vh;
+}
+
+.about-text a{
+    color: var(--accent);
+    text-wrap: nowrap;
+}
